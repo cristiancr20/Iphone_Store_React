@@ -1,0 +1,38 @@
+.App .nav{
+    display: flex;
+    justify-content: space-around;
+    background: #303030;
+    color:#fff;
+}
+
+.App .nav ul{
+    display: flex;
+}
+.App .nav ul li{
+    padding: 5px 20px;
+    list-style: none;
+    cursor:pointer;
+    transition: all .3s ease-in-out;
+}
+
+.App .nav ul li:hover{
+    transform:scale(1.4) ;
+}
+
+.App .title{
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    z-index: 4;
+}
+
+.App .Tarjetas{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+

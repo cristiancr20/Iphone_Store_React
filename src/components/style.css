@@ -1,0 +1,64 @@
+.card{
+    width:15rem;
+    margin:10px;
+    z-index: 2;
+}
+.card .card-body h5,
+.card .card-body .boton{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card .card-body .imagen{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.card .card-body .imagen img{
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.card .card-body .imagen img:hover{
+    transform: scale(0.9);
+}
+     
+
+.titulo{
+    font-size: 30px;
+}
+
+.Body_Modal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imagen_modal{
+    width:200px;
+    height: 300px;
+}
+.imagen_modal img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.Details .Details_op{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Details .Details_op {
+    padding: 5px;
+    font-size: 13px;
+}
+
+.Details .Details_op div{
+    padding: 5px;
+}
+.Details .Details__title{
+    display: flex;
+    justify-content: center;
+}
